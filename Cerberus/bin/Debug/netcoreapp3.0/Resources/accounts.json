@@ -1,68 +1,25 @@
 [
   {
-    "ID": 196026275360407553,
-    "Warns": 5,
-    "Roles": "Verified Thot, Tired's hoe, Nitro Booster, Gate Keepers, Verified Sinner 🔪, 18+, Taken, Sinner 🙈, Egirl Encyclopedia, Lustful Spawnling 💋, Europe, Dm for business only, Male, Event Ping, Sinful Sluts 😈, Siren 👅, Succubus 👄, Closed DM, Sinful 🍆, Owner, Dm for staff purposes only, Satan's Toy 💦, Straight",
-    "warnreason": "1\n 1\n 1\n 1\n 1",
+    "ID": 378972510974246913,
+    "Warns": 0,
+    "Roles": "Pink, Single, Verified Sinner 🔪, Gate Keepers, 18+, Female, Sinner 🙈, Lustful Spawnling 💋, UK, Looking, Sinful Sluts 😈",
+    "warnreason": "",
     "Mutes": 1,
-    "Username": "🍀Paul🍀",
+    "Username": "Gothboiclique",
     "ListofRoles": [
-      "Verified Thot",
-      "Tired's hoe",
-      "Nitro Booster",
+      "Pink",
+      "Single",
+      "Verified Sinner 🔪",
       "Gate Keepers",
-      "Verified Sinner 🔪",
-      "18+",
-      "Taken",
-      "Sinner 🙈",
-      "Egirl Encyclopedia",
-      "Lustful Spawnling 💋",
-      "Europe",
-      "Dm for business only",
-      "Male",
-      "Event Ping",
-      "Sinful Sluts 😈",
-      "Siren 👅",
-      "Succubus 👄",
-      "Closed DM",
-      "Sinful 🍆",
-      "Owner",
-      "Dm for staff purposes only",
-      "Satan's Toy 💦",
-      "Straight"
-    ],
-    "WarnreasonList": [
-      "1",
-      "1",
-      "1",
-      "1",
-      "1"
-    ],
-    "Muted": false
-  },
-  {
-    "ID": 189237157854969858,
-    "Warns": 5,
-    "Roles": "Sinful 🍆, Orange, Verified Sinner 🔪, 18+, Female, Sinner 🙈, Zed's Bots",
-    "warnreason": "test\n test\n test\n test\n test",
-    "Mutes": 1,
-    "Username": "Billie",
-    "ListofRoles": [
-      "Sinful 🍆",
-      "Orange",
-      "Verified Sinner 🔪",
       "18+",
       "Female",
       "Sinner 🙈",
-      "Zed's Bots"
+      "Lustful Spawnling 💋",
+      "UK",
+      "Looking",
+      "Sinful Sluts 😈"
     ],
-    "WarnreasonList": [
-      "test",
-      "test",
-      "test",
-      "test",
-      "test"
-    ],
+    "WarnreasonList": [],
     "Muted": false
   }
 ]

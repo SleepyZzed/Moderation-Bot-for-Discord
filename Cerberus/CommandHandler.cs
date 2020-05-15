@@ -40,7 +40,7 @@ namespace Cerberus
         private async Task HandleMessageAsync(SocketMessage socketMessage)
         {
             //Console.WriteLine(socketMessage.Content);
-            string prefix = "~";
+            string prefix = "#";
             var argPos = 0;
             if (socketMessage.Author.IsBot) return;
 

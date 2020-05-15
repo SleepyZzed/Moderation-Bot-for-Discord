@@ -99,7 +99,8 @@ namespace Cerberus
                     builderleave11.WithCurrentTimestamp();
 
                     builderleave11.WithColor(Color.Purple);
-                    await user.SendMessageAsync("", false, builderleave11.Build());
+                    
+                    
                     UserProfiles.UserAccount.SaveAccounts();
                     List<string> RoleList = new List<string>();
                     foreach (SocketRole role in ((SocketGuildUser)user).Roles)
@@ -138,8 +139,13 @@ namespace Cerberus
                     var staffchan = Context.Guild.GetChannel(696106753628307506) as SocketTextChannel;
                     await staffchan.SendMessageAsync("", false, builderleave.Build());
                     await Context.Channel.SendMessageAsync("", false, builderleave.Build());
-                   
-                  
+                    
+                    
+                    await user.SendMessageAsync("", false, builderleave11.Build());
+                    
+                 
+                    
+
 
                 }
                 else
@@ -217,7 +223,7 @@ namespace Cerberus
                     builderleave11.WithTitle("You have been muted");
                     builderleave11.WithDescription($"You have been muted for the following reason: {reason}");
                    
-                    await user.SendMessageAsync("", false, builderleave11.Build());
+                  
 
                     builderleave11.WithCurrentTimestamp();
 
@@ -236,7 +242,6 @@ namespace Cerberus
 
 
                     }
-
 
                     ulong roleId = 601180170975445046;
                     var roles = Context.Guild.GetRole(roleId);
@@ -262,7 +267,8 @@ namespace Cerberus
                     await Context.Channel.SendMessageAsync("", false, builderleave.Build());
                     await staffchan.SendMessageAsync("", false, builderleave1.Build());
                     await Context.Channel.SendMessageAsync("", false, builderleave1.Build());
-                    
+                    await user.SendMessageAsync("", false, builderleave11.Build());
+
                 }
 
                 else {
@@ -292,7 +298,7 @@ namespace Cerberus
                     var staffchan = Context.Guild.GetChannel(696106753628307506) as SocketTextChannel;
                     await staffchan.SendMessageAsync("", false, builderleave.Build());
                     await Context.Channel.SendMessageAsync("", false, builderleave.Build());
-                    await user.SendMessageAsync("", false, builderleave1.Build());
+                   
 
                   
                     account.WarnreasonList.Add(reason);
@@ -300,6 +306,7 @@ namespace Cerberus
                     var warnreason = String.Join("\n ", rolelist.ToArray());
                     account.warnreason = warnreason.ToString();
                     UserProfiles.UserAccount.SaveAccounts();
+                    await user.SendMessageAsync("", false, builderleave1.Build());
                 }
                 
 
