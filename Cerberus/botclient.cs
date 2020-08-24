@@ -37,11 +37,11 @@ namespace Cerberus
             switch (result)
             {
                 case 1:
-                    string ThirstBot = "Njk2MTAxNDI2NjI3MzQ2NDgy.Xoj1Og.oQYpEUt_VSDIOttIcjs4H_iWfNk";
+                    string ThirstBot = "";
                     Global.Ysmirr = ThirstBot;
                     break;
                 case 2:
-                    string ThirstBot1 = "Njk2OTcxMDk0MzQ2OTU2ODYw.Xowe8g.OWTTlp5i3P_s5Tu5mNxc43CXaec";
+                    string ThirstBot1 = "";
                     Global.Ysmirr = ThirstBot1;
 
                     break;
